@@ -98,7 +98,7 @@ bool IsProcessRunning(DWORD pid) {
 
 
 
-// Doesnt Work So Useless Maybe Coming IN The Future -Cl4vr
+// Doesnt Work So Useless Maybe Coming IN The Future -Cl4vr & Zynco
 
 bool DeleteFileAfterProcessExit(const std::wstring& filePath, DWORD pid) {
     while (IsProcessRunning(pid)) {
